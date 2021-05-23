@@ -1,26 +1,18 @@
 {
-  "name": "mochajs_supertest",
+  "name": "security",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ngbao3105/mochajs_supertest.git"
-  },
-  "author": "",
+  "author": "Emmanuel Henri",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ngbao3105/mochajs_supertest/issues"
-  },
-  "homepage": "https://github.com/ngbao3105/mochajs_supertest#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.12.10",
-    "nodemon": "^2.0.7"
+    "mongoose": "^5.7.13",
+    "nodemon": "^2.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
